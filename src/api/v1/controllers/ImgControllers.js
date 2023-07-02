@@ -46,8 +46,6 @@ function ImgControllers() {
                     }
                 })
 
-                // users =  await UserModal.findOne({ _id: req.user.id }).select('uploadImg');
-
                 return res.status(200).json({success:true,msg:'Your file uploaded successfully ',users})
 
             } catch (error) {
