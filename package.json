@@ -4,7 +4,8 @@
   "description": "This is a backend of dp_creators app, where users can upload, show images with their views, titles and description",
   "main": "server",
   "devDependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
